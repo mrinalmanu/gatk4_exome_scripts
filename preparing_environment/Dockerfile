@@ -8,4 +8,5 @@ RUN apt-get install python-numpy -y
 RUN apt-get install python-pandas -y
 RUN apt-get install tabix
 RUN conda install bcftools
-WORKDIR "/home/manu/Desktop/gatk4"
+RUN git clone https://github.com/mrinalmanu/gatk4_exome_scripts /home/NGS_pipeline/
+WORKDIR "/home/NGS_pipeline"
