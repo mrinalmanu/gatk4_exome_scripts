@@ -8,5 +8,5 @@ RUN apt-get install python-psutil -y
 RUN apt-get install python-numpy -y
 RUN apt-get install python-pandas -y
 RUN apt-get install tabix
-RUN git clone https://github.com/ptriska/NGS_pipeline/ /home/NGS_pipeline/
+RUN git clone https://github.com/mrinalmanu/gatk4_exome_scripts/ /home/NGS_pipeline/
 WORKDIR "/home/NGS_pipeline"
