@@ -1,31 +1,6 @@
 # gatk4_exome_scripts
 gatk4 variant analysis in snakemake
 
-This is the tree structure:
-
-.
-├── 2_dry_run.sh
-├── EXAMPLE_SAMPLE_LIST_TEXT_FILE.txt
-├── gatk4_docker.py
-├── make_varfile.py
-├── preparing_environment
-│   ├── Dockerfile
-│   ├── pull_images.sh
-│   └── run_ngs_container.sh
-├── raw_data
-├── README_mrinal.txt
-├── run_pipeline.py
-├── scripts
-│   ├── config.py
-│   ├── gatk4_germline.py
-│   ├── gatk_varscan.py
-│   ├── __init__.py
-│   ├── inspect_coverage.py
-│   ├── lock_module.py
-│   └── store_annotations.py
-└── write_vcf.py
-
-
 Since we can use docker it's better to set up docker environment
 
 Before launching the original script, we should do a dry run to see that everything goes smoothly.
