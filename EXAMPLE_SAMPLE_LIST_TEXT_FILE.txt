@@ -1,0 +1,14 @@
+SAMPLE_ID,PIPELINE,GENOME_BUILD,FASTQ1,FASTQ2,FASTQ1_TUMOR,FASTQ2_TUMOR,CLEANUP LIB_ID,PL_ID,PU_ID
+Sample1,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_10087.lane_8.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_10087.lane_8.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample2,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R126.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R126.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample3,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_10095.lane_8.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_10095.lane_8.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample4,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R127.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R127.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample5,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_40014.lane_8.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_40014.lane_8.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample6,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R128.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R128.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample7,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_40027.lane_8.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_40027.lane_8.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample8,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R129.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R129.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample9,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_4006.lane_8.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_4006.lane_8.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample10,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R130.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R130.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample11,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R124.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R124.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample12,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R140.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R140.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
+Sample13,gatk4_germline,HG1K37,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R125.lane_7.R1.fastq.gz,//media/DISK1/exome_aggregation/fastqs/wes_40.sample_R125.lane_7.R2.fastq.gz,,,,lib1,Illumina,XXX
