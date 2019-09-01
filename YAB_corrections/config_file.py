@@ -1,0 +1,15 @@
+reference_folder = "/media/EXOMEDATA/reference/"
+output_folder = "/media/EXOMEDATA/exomes/wes_999_v4/out/"
+input_folder = "/media/EXOMEDATA/exomes/wes_999_v4/fastqs/"
+bwa_index_HG1K37 = reference_folder+"/GATK_b37/human_g1k_v37.fasta"
+#bwa_index_hg19 = reference_folder+"/hg19_old_functional/broad_bundle_hg19_v2.5/"
+reference_fasta_HG1K37 = reference_folder+"/GATK_b37/human_g1k_v37.fasta"
+#reference_fasta_hg19 = reference_folder+"/hg19_old_functional/broad_bundle_hg19_v2.5/ucsc.hg19.fasta"
+dbsnp_vcf_HG1K37 = reference_folder+"/gatk-bundle-b37/dbsnp_138.b37.vcf"
+#dbsnp_vcf_hg19 = reference_folder+"/hg19_old_functional/broad_bundle_hg19_v2.5/dbsnp_137.hg19.vcf"
+#vep_reference_folder_hg19 = reference_folder+"/hg19_old_functional/"
+max_nr_threads= "10"
+max_threads_process = '10'
+max_threads = '10'
+max_paralellized_threads = '10'
+batch_ID = 'test'
