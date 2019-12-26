@@ -1,0 +1,24 @@
+{
+        "samples":
+        [
+        "wes_67.sample_B1-0020",
+
+        "wes_67.sample_B4-0004",
+        
+        "wes_67.sample_B4-0022",
+
+        "wes_67.sample_B4-0032"
+
+        ],
+
+        "ref": "/gatk/output_folder/vc_proj/mrinal/ref_files/human_g1k_v37.fasta",
+
+        "dbsnp": "/gatk/output_folder/vc_proj/mrinal/my_data/dbSNP_b150.vcf.gz",
+
+        "intervals": "/gatk/output_folder/vc_proj/mrinal/ref_files/Exome_Calling.intervals"
+
+}
+
+
+
+

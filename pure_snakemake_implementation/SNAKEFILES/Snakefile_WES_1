@@ -1,0 +1,73 @@
+# Smkgatk4 pipeline
+
+configfile: "/gatk/smkgatk4/sample_configs/WES_1.json"
+
+SAMPLES = config['samples']
+
+ref = config['ref']
+dbsnp = config['dbsnp']
+mills = config['mills']
+intervals = config['intervals']
+
+
+rule all:
+    input:
+        "/gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES_1.joined.vcf"
+
+
+rule base_recalib:
+    input:
+        "/gatk/output_folder/vc_proj/all_samples/{sample}.dedup.bam"
+    output:
+        "/gatk/output_folder/vc_proj/all_outputs/base_recalib/{sample}.recalibrated.table"
+    shell:
+        "gatk --java-options \"-Xmx4G\" BaseRecalibrator -R {ref} -I {input} --known-sites {dbsnp} --known-sites {mills} -O {output}"
+
+
+rule apply_recalib:
+    input:
+        tabs="/gatk/output_folder/vc_proj/all_outputs/base_recalib/{sample}.recalibrated.table",
+        bams="/gatk/output_folder/vc_proj/all_samples/{sample}.dedup.bam"
+    output:
+        "/gatk/output_folder/vc_proj/all_outputs/analysis_ready/{sample}.recalibrated.bam"
+    shell:
+        "gatk --java-options \"-Xmx4G\" ApplyBQSR -R {ref} -bqsr {input.tabs} -I {input.bams} -O {output}"
+
+
+rule haplotype_calling:
+    input:
+        "/gatk/output_folder/vc_proj/all_outputs/analysis_ready/{sample}.recalibrated.bam"
+    output:
+        "/gatk/output_folder/vc_proj/all_outputs/all_vcfs/{sample}.hc.g.vcf"
+    shell:
+        "gatk --java-options \"-Xmx4G\" HaplotypeCaller -R {ref} -L {intervals} -I {input} -O {output} -ERC GVCF"
+
+# create gvcf map file, output name must be kept as gvcf.list
+
+rule create_sample_list:
+    input:
+        expand("/gatk/output_folder/vc_proj/all_outputs/all_vcfs/{sample}.hc.g.vcf", sample=SAMPLES)
+    output:
+        "/gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES1_gvcfs.list"
+    shell:
+        "ls {input} > {output}"
+
+
+rule combine_gvcfs:
+    input:
+        gvcfs_list="/gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES1_gvcfs.list"
+    output:
+        "/gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES1_cohort.g.vcf"
+    shell:
+        "gatk --java-options \"-Xmx64G\" CombineGVCFs -R {ref} -V {input.gvcfs_list} -O {output}"
+
+# now we use the genomic workspace to do joint calling
+
+rule genotype_gvcfs:
+    input:
+        c_gvcf="/gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES1_cohort.g.vcf"
+    output:
+        "/gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES_1.joined.vcf"
+    shell:
+        "gatk --java-options \"-Xmx64G\" GenotypeGVCFs -R {ref} -V {input.c_gvcf} -O {output}"
+

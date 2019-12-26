@@ -1,0 +1,1273 @@
+Building DAG of jobs...
+Job counts:
+	count	jobs
+	1	all
+	51	apply_recalib
+	51	base_recalib
+	1	combine_gvcfs
+	1	create_sample_list
+	1	genotype_gvcfs
+	51	haplotype_calling
+	157
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_20.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_20.recalibrated.table
+    jobid: 131
+    wildcards: sample=wes_16.sample_20
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00284.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00284.recalibrated.table
+    jobid: 123
+    wildcards: sample=wes_16.sample_CH00284
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_25.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_25.recalibrated.table
+    jobid: 140
+    wildcards: sample=wes_16.sample_25
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR126.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR126.recalibrated.table
+    jobid: 109
+    wildcards: sample=wes_35.sample_BR126
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR131.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR131.recalibrated.table
+    jobid: 117
+    wildcards: sample=wes_35.sample_BR131
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00277.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00277.recalibrated.table
+    jobid: 155
+    wildcards: sample=wes_16.sample_CH00277
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00323.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00323.recalibrated.table
+    jobid: 137
+    wildcards: sample=wes_16.sample_CH00323
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00282.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00282.recalibrated.table
+    jobid: 139
+    wildcards: sample=wes_16.sample_CH00282
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00283.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00283.recalibrated.table
+    jobid: 135
+    wildcards: sample=wes_16.sample_CH00283
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00287.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00287.recalibrated.table
+    jobid: 151
+    wildcards: sample=wes_16.sample_CH00287
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_21.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_21.recalibrated.table
+    jobid: 121
+    wildcards: sample=wes_16.sample_21
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00294.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00294.recalibrated.table
+    jobid: 126
+    wildcards: sample=wes_16.sample_CH00294
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00328.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00328.recalibrated.table
+    jobid: 149
+    wildcards: sample=wes_16.sample_CH00328
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR130.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR130.recalibrated.table
+    jobid: 116
+    wildcards: sample=wes_35.sample_BR130
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_33.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_33.recalibrated.table
+    jobid: 144
+    wildcards: sample=wes_16.sample_33
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR140.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR140.recalibrated.table
+    jobid: 111
+    wildcards: sample=wes_35.sample_BR140
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00291.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00291.recalibrated.table
+    jobid: 128
+    wildcards: sample=wes_16.sample_CH00291
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00281.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00281.recalibrated.table
+    jobid: 134
+    wildcards: sample=wes_16.sample_CH00281
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_FFPE-block.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_FFPE-block.recalibrated.table
+    jobid: 115
+    wildcards: sample=wes_35.sample_FFPE-block
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR125.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR125.recalibrated.table
+    jobid: 118
+    wildcards: sample=wes_35.sample_BR125
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR127.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR127.recalibrated.table
+    jobid: 110
+    wildcards: sample=wes_35.sample_BR127
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR135.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR135.recalibrated.table
+    jobid: 108
+    wildcards: sample=wes_35.sample_BR135
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00329.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00329.recalibrated.table
+    jobid: 143
+    wildcards: sample=wes_16.sample_CH00329
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00327.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00327.recalibrated.table
+    jobid: 148
+    wildcards: sample=wes_16.sample_CH00327
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00325.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00325.recalibrated.table
+    jobid: 153
+    wildcards: sample=wes_16.sample_CH00325
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00297.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00297.recalibrated.table
+    jobid: 122
+    wildcards: sample=wes_16.sample_CH00297
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00286.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00286.recalibrated.table
+    jobid: 156
+    wildcards: sample=wes_16.sample_CH00286
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_22.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_22.recalibrated.table
+    jobid: 152
+    wildcards: sample=wes_16.sample_22
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_34.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_34.recalibrated.table
+    jobid: 154
+    wildcards: sample=wes_16.sample_34
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00298.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00298.recalibrated.table
+    jobid: 136
+    wildcards: sample=wes_16.sample_CH00298
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR129.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR129.recalibrated.table
+    jobid: 106
+    wildcards: sample=wes_35.sample_BR129
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00292.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00292.recalibrated.table
+    jobid: 138
+    wildcards: sample=wes_16.sample_CH00292
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00295.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00295.recalibrated.table
+    jobid: 150
+    wildcards: sample=wes_16.sample_CH00295
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR132.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR132.recalibrated.table
+    jobid: 107
+    wildcards: sample=wes_35.sample_BR132
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_19.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_19.recalibrated.table
+    jobid: 142
+    wildcards: sample=wes_16.sample_19
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00324.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00324.recalibrated.table
+    jobid: 132
+    wildcards: sample=wes_16.sample_CH00324
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR128.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR128.recalibrated.table
+    jobid: 112
+    wildcards: sample=wes_35.sample_BR128
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00293.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00293.recalibrated.table
+    jobid: 145
+    wildcards: sample=wes_16.sample_CH00293
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR124.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR124.recalibrated.table
+    jobid: 113
+    wildcards: sample=wes_35.sample_BR124
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00279.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00279.recalibrated.table
+    jobid: 133
+    wildcards: sample=wes_16.sample_CH00279
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00288.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00288.recalibrated.table
+    jobid: 119
+    wildcards: sample=wes_16.sample_CH00288
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00296.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00296.recalibrated.table
+    jobid: 141
+    wildcards: sample=wes_16.sample_CH00296
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_24.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_24.recalibrated.table
+    jobid: 120
+    wildcards: sample=wes_16.sample_24
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00280.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00280.recalibrated.table
+    jobid: 130
+    wildcards: sample=wes_16.sample_CH00280
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00285.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00285.recalibrated.table
+    jobid: 124
+    wildcards: sample=wes_16.sample_CH00285
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00278.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00278.recalibrated.table
+    jobid: 125
+    wildcards: sample=wes_16.sample_CH00278
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00330.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00330.recalibrated.table
+    jobid: 146
+    wildcards: sample=wes_16.sample_CH00330
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_23.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_23.recalibrated.table
+    jobid: 147
+    wildcards: sample=wes_16.sample_23
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR134.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR134.recalibrated.table
+    jobid: 114
+    wildcards: sample=wes_35.sample_BR134
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00326.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00326.recalibrated.table
+    jobid: 129
+    wildcards: sample=wes_16.sample_CH00326
+
+
+[Mon Dec  9 23:05:43 2019]
+rule base_recalib:
+    input: /gatk/output_folder/vc_proj/all_samples/wes_16.sample_35.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_35.recalibrated.table
+    jobid: 127
+    wildcards: sample=wes_16.sample_35
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00291.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00291.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00291.recalibrated.bam
+    jobid: 77
+    wildcards: sample=wes_16.sample_CH00291
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00323.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00323.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00323.recalibrated.bam
+    jobid: 86
+    wildcards: sample=wes_16.sample_CH00323
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00282.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00282.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00282.recalibrated.bam
+    jobid: 88
+    wildcards: sample=wes_16.sample_CH00282
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_20.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_20.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_20.recalibrated.bam
+    jobid: 80
+    wildcards: sample=wes_16.sample_20
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR130.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR130.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR130.recalibrated.bam
+    jobid: 65
+    wildcards: sample=wes_35.sample_BR130
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00294.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00294.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00294.recalibrated.bam
+    jobid: 75
+    wildcards: sample=wes_16.sample_CH00294
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR124.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR124.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR124.recalibrated.bam
+    jobid: 62
+    wildcards: sample=wes_35.sample_BR124
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_19.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_19.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_19.recalibrated.bam
+    jobid: 91
+    wildcards: sample=wes_16.sample_19
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_33.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_33.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_33.recalibrated.bam
+    jobid: 93
+    wildcards: sample=wes_16.sample_33
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR134.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR134.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR134.recalibrated.bam
+    jobid: 63
+    wildcards: sample=wes_35.sample_BR134
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00278.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00278.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00278.recalibrated.bam
+    jobid: 74
+    wildcards: sample=wes_16.sample_CH00278
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00285.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00285.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00285.recalibrated.bam
+    jobid: 73
+    wildcards: sample=wes_16.sample_CH00285
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00330.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00330.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00330.recalibrated.bam
+    jobid: 95
+    wildcards: sample=wes_16.sample_CH00330
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_24.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_24.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_24.recalibrated.bam
+    jobid: 69
+    wildcards: sample=wes_16.sample_24
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00280.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00280.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00280.recalibrated.bam
+    jobid: 79
+    wildcards: sample=wes_16.sample_CH00280
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_22.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_22.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_22.recalibrated.bam
+    jobid: 101
+    wildcards: sample=wes_16.sample_22
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00286.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00286.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00286.recalibrated.bam
+    jobid: 105
+    wildcards: sample=wes_16.sample_CH00286
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00329.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00329.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00329.recalibrated.bam
+    jobid: 92
+    wildcards: sample=wes_16.sample_CH00329
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00325.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00325.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00325.recalibrated.bam
+    jobid: 102
+    wildcards: sample=wes_16.sample_CH00325
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR135.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR135.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR135.recalibrated.bam
+    jobid: 57
+    wildcards: sample=wes_35.sample_BR135
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR129.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR129.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR129.recalibrated.bam
+    jobid: 55
+    wildcards: sample=wes_35.sample_BR129
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_34.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_34.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_34.recalibrated.bam
+    jobid: 103
+    wildcards: sample=wes_16.sample_34
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR140.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR140.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR140.recalibrated.bam
+    jobid: 60
+    wildcards: sample=wes_35.sample_BR140
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR127.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR127.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR127.recalibrated.bam
+    jobid: 59
+    wildcards: sample=wes_35.sample_BR127
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR125.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR125.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR125.recalibrated.bam
+    jobid: 67
+    wildcards: sample=wes_35.sample_BR125
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_FFPE-block.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_FFPE-block.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_FFPE-block.recalibrated.bam
+    jobid: 64
+    wildcards: sample=wes_35.sample_FFPE-block
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00281.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00281.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00281.recalibrated.bam
+    jobid: 83
+    wildcards: sample=wes_16.sample_CH00281
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00277.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00277.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00277.recalibrated.bam
+    jobid: 104
+    wildcards: sample=wes_16.sample_CH00277
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR126.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR126.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR126.recalibrated.bam
+    jobid: 58
+    wildcards: sample=wes_35.sample_BR126
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR131.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR131.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR131.recalibrated.bam
+    jobid: 66
+    wildcards: sample=wes_35.sample_BR131
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00284.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00284.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00284.recalibrated.bam
+    jobid: 72
+    wildcards: sample=wes_16.sample_CH00284
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_25.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_25.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_25.recalibrated.bam
+    jobid: 89
+    wildcards: sample=wes_16.sample_25
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00328.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00328.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00328.recalibrated.bam
+    jobid: 98
+    wildcards: sample=wes_16.sample_CH00328
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_21.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_21.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_21.recalibrated.bam
+    jobid: 70
+    wildcards: sample=wes_16.sample_21
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00283.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00283.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00283.recalibrated.bam
+    jobid: 84
+    wildcards: sample=wes_16.sample_CH00283
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00287.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00287.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00287.recalibrated.bam
+    jobid: 100
+    wildcards: sample=wes_16.sample_CH00287
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00288.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00288.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00288.recalibrated.bam
+    jobid: 68
+    wildcards: sample=wes_16.sample_CH00288
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00296.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00296.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00296.recalibrated.bam
+    jobid: 90
+    wildcards: sample=wes_16.sample_CH00296
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00279.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00279.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00279.recalibrated.bam
+    jobid: 82
+    wildcards: sample=wes_16.sample_CH00279
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR128.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR128.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR128.recalibrated.bam
+    jobid: 61
+    wildcards: sample=wes_35.sample_BR128
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00324.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00324.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00324.recalibrated.bam
+    jobid: 81
+    wildcards: sample=wes_16.sample_CH00324
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00293.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00293.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00293.recalibrated.bam
+    jobid: 94
+    wildcards: sample=wes_16.sample_CH00293
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_35.sample_BR132.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_35.sample_BR132.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR132.recalibrated.bam
+    jobid: 56
+    wildcards: sample=wes_35.sample_BR132
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00295.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00295.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00295.recalibrated.bam
+    jobid: 99
+    wildcards: sample=wes_16.sample_CH00295
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_35.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_35.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_35.recalibrated.bam
+    jobid: 76
+    wildcards: sample=wes_16.sample_35
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00326.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00326.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00326.recalibrated.bam
+    jobid: 78
+    wildcards: sample=wes_16.sample_CH00326
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_23.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_23.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_23.recalibrated.bam
+    jobid: 96
+    wildcards: sample=wes_16.sample_23
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00297.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00297.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00297.recalibrated.bam
+    jobid: 71
+    wildcards: sample=wes_16.sample_CH00297
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00327.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00327.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00327.recalibrated.bam
+    jobid: 97
+    wildcards: sample=wes_16.sample_CH00327
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00292.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00292.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00292.recalibrated.bam
+    jobid: 87
+    wildcards: sample=wes_16.sample_CH00292
+
+
+[Mon Dec  9 23:05:43 2019]
+rule apply_recalib:
+    input: /gatk/output_folder/vc_proj/all_outputs/base_recalib/wes_16.sample_CH00298.recalibrated.table, /gatk/output_folder/vc_proj/all_samples/wes_16.sample_CH00298.dedup.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00298.recalibrated.bam
+    jobid: 85
+    wildcards: sample=wes_16.sample_CH00298
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_23.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_23.hc.g.vcf
+    jobid: 45
+    wildcards: sample=wes_16.sample_23
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_35.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_35.hc.g.vcf
+    jobid: 25
+    wildcards: sample=wes_16.sample_35
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00326.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00326.hc.g.vcf
+    jobid: 27
+    wildcards: sample=wes_16.sample_CH00326
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00295.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00295.hc.g.vcf
+    jobid: 48
+    wildcards: sample=wes_16.sample_CH00295
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR132.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR132.hc.g.vcf
+    jobid: 5
+    wildcards: sample=wes_35.sample_BR132
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR128.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR128.hc.g.vcf
+    jobid: 10
+    wildcards: sample=wes_35.sample_BR128
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00324.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00324.hc.g.vcf
+    jobid: 30
+    wildcards: sample=wes_16.sample_CH00324
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00296.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00296.hc.g.vcf
+    jobid: 39
+    wildcards: sample=wes_16.sample_CH00296
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00288.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00288.hc.g.vcf
+    jobid: 17
+    wildcards: sample=wes_16.sample_CH00288
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00293.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00293.hc.g.vcf
+    jobid: 43
+    wildcards: sample=wes_16.sample_CH00293
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00279.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00279.hc.g.vcf
+    jobid: 31
+    wildcards: sample=wes_16.sample_CH00279
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00292.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00292.hc.g.vcf
+    jobid: 36
+    wildcards: sample=wes_16.sample_CH00292
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00282.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00282.hc.g.vcf
+    jobid: 37
+    wildcards: sample=wes_16.sample_CH00282
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00298.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00298.hc.g.vcf
+    jobid: 34
+    wildcards: sample=wes_16.sample_CH00298
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00327.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00327.hc.g.vcf
+    jobid: 46
+    wildcards: sample=wes_16.sample_CH00327
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00297.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00297.hc.g.vcf
+    jobid: 20
+    wildcards: sample=wes_16.sample_CH00297
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00281.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00281.hc.g.vcf
+    jobid: 32
+    wildcards: sample=wes_16.sample_CH00281
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_FFPE-block.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_FFPE-block.hc.g.vcf
+    jobid: 13
+    wildcards: sample=wes_35.sample_FFPE-block
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR125.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR125.hc.g.vcf
+    jobid: 16
+    wildcards: sample=wes_35.sample_BR125
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR127.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR127.hc.g.vcf
+    jobid: 8
+    wildcards: sample=wes_35.sample_BR127
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR140.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR140.hc.g.vcf
+    jobid: 9
+    wildcards: sample=wes_35.sample_BR140
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00283.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00283.hc.g.vcf
+    jobid: 33
+    wildcards: sample=wes_16.sample_CH00283
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00287.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00287.hc.g.vcf
+    jobid: 49
+    wildcards: sample=wes_16.sample_CH00287
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_21.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_21.hc.g.vcf
+    jobid: 19
+    wildcards: sample=wes_16.sample_21
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00328.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00328.hc.g.vcf
+    jobid: 47
+    wildcards: sample=wes_16.sample_CH00328
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00284.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00284.hc.g.vcf
+    jobid: 21
+    wildcards: sample=wes_16.sample_CH00284
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_25.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_25.hc.g.vcf
+    jobid: 38
+    wildcards: sample=wes_16.sample_25
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00277.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00277.hc.g.vcf
+    jobid: 53
+    wildcards: sample=wes_16.sample_CH00277
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR126.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR126.hc.g.vcf
+    jobid: 7
+    wildcards: sample=wes_35.sample_BR126
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR131.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR131.hc.g.vcf
+    jobid: 15
+    wildcards: sample=wes_35.sample_BR131
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_24.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_24.hc.g.vcf
+    jobid: 18
+    wildcards: sample=wes_16.sample_24
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00280.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00280.hc.g.vcf
+    jobid: 28
+    wildcards: sample=wes_16.sample_CH00280
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00278.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00278.hc.g.vcf
+    jobid: 23
+    wildcards: sample=wes_16.sample_CH00278
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00285.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00285.hc.g.vcf
+    jobid: 22
+    wildcards: sample=wes_16.sample_CH00285
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00330.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00330.hc.g.vcf
+    jobid: 44
+    wildcards: sample=wes_16.sample_CH00330
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR134.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR134.hc.g.vcf
+    jobid: 12
+    wildcards: sample=wes_35.sample_BR134
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_33.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_33.hc.g.vcf
+    jobid: 42
+    wildcards: sample=wes_16.sample_33
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_19.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_19.hc.g.vcf
+    jobid: 40
+    wildcards: sample=wes_16.sample_19
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR124.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR124.hc.g.vcf
+    jobid: 11
+    wildcards: sample=wes_35.sample_BR124
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_34.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_34.hc.g.vcf
+    jobid: 52
+    wildcards: sample=wes_16.sample_34
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR129.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR129.hc.g.vcf
+    jobid: 4
+    wildcards: sample=wes_35.sample_BR129
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR135.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR135.hc.g.vcf
+    jobid: 6
+    wildcards: sample=wes_35.sample_BR135
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00329.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00329.hc.g.vcf
+    jobid: 41
+    wildcards: sample=wes_16.sample_CH00329
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00286.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00286.hc.g.vcf
+    jobid: 54
+    wildcards: sample=wes_16.sample_CH00286
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00325.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00325.hc.g.vcf
+    jobid: 51
+    wildcards: sample=wes_16.sample_CH00325
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_22.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_22.hc.g.vcf
+    jobid: 50
+    wildcards: sample=wes_16.sample_22
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00291.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00291.hc.g.vcf
+    jobid: 26
+    wildcards: sample=wes_16.sample_CH00291
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00294.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00294.hc.g.vcf
+    jobid: 24
+    wildcards: sample=wes_16.sample_CH00294
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_35.sample_BR130.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR130.hc.g.vcf
+    jobid: 14
+    wildcards: sample=wes_35.sample_BR130
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_20.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_20.hc.g.vcf
+    jobid: 29
+    wildcards: sample=wes_16.sample_20
+
+
+[Mon Dec  9 23:05:43 2019]
+rule haplotype_calling:
+    input: /gatk/output_folder/vc_proj/all_outputs/analysis_ready/wes_16.sample_CH00323.recalibrated.bam
+    output: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00323.hc.g.vcf
+    jobid: 35
+    wildcards: sample=wes_16.sample_CH00323
+
+
+[Mon Dec  9 23:05:43 2019]
+rule create_sample_list:
+    input: /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR129.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR132.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR135.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR126.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR127.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR140.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR128.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR124.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR134.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_FFPE-block.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR130.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR131.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_35.sample_BR125.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00288.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_24.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_21.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00297.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00284.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00285.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00278.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00294.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_35.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00291.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00326.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00280.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_20.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00324.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00279.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00281.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00283.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00298.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00323.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00292.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00282.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_25.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00296.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_19.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00329.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_33.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00293.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00330.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_23.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00327.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00328.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00295.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00287.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_22.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00325.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_34.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00277.hc.g.vcf, /gatk/output_folder/vc_proj/all_outputs/all_vcfs/wes_16.sample_CH00286.hc.g.vcf
+    output: /gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES4_gvcfs.list
+    jobid: 3
+
+
+[Mon Dec  9 23:05:43 2019]
+rule combine_gvcfs:
+    input: /gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES4_gvcfs.list
+    output: /gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES4_cohort.g.vcf
+    jobid: 2
+
+
+[Mon Dec  9 23:05:43 2019]
+rule genotype_gvcfs:
+    input: /gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES4_cohort.g.vcf
+    output: /gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES_4.joined.vcf
+    jobid: 1
+
+
+[Mon Dec  9 23:05:43 2019]
+localrule all:
+    input: /gatk/output_folder/vc_proj/all_outputs/joint_vcf/WES_4.joined.vcf
+    jobid: 0
+
+Job counts:
+	count	jobs
+	1	all
+	51	apply_recalib
+	51	base_recalib
+	1	combine_gvcfs
+	1	create_sample_list
+	1	genotype_gvcfs
+	51	haplotype_calling
+	157
+This was a dry-run (flag -n). The order of jobs does not reflect the order of execution.
