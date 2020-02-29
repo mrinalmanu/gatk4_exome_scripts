@@ -1,0 +1,72 @@
+
+{
+
+"samples":
+
+[
+
+"wes_3.sample_167.merged",
+"wes_3.sample_168.merged",
+"wes_13.sample_13.merged",
+"wes_3.sample_83.merged",
+"wes_13.sample_231-16.merged",
+"wes_3.sample_93.merged",
+"wes_13.sample_232-16.merged",
+"wes_3.sample_94.merged",
+"wes_13.sample_29.merged",
+"wes_3.sample_95.merged",
+"wes_13.sample_30.merged",
+"wes_13.sample_31.merged",
+"wes_5.sample_113.merged",
+"wes_13.sample_32.merged",
+"wes_5.sample_114.merged",
+"wes_13.sample_BR51.merged",
+"wes_5.sample_115.merged",
+"wes_13.sample_BR52.merged",
+"wes_5.sample_117.merged",
+"wes_13.sample_BR53.merged",
+"wes_5.sample_118.merged",
+"wes_14.sample_30",
+"wes_5.sample_158.merged",
+"wes_3.sample_116.merged",
+"wes_5.sample_169.merged",
+"wes_3.sample_153.merged",
+"wes_5.sample_170.merged",
+"wes_3.sample_163.merged",
+"wes_5.sample_185.merged",
+"wes_3.sample_164.merged",
+"wes_5.sample_197.merged",
+"wes_3.sample_165.merged",
+"wes_5.sample_198.merged",
+"wes_3.sample_166.merged",
+"wes_5.sample_199.merged"
+
+],
+
+        "ref": "/gatk/output_folder/vc_proj/mrinal/ref_files/human_g1k_v37.fasta",
+
+        "dbsnp": "/gatk/output_folder/vc_proj/mrinal/my_data/dbSNP_b150.vcf.gz",
+
+	"mills": "/gatk/output_folder/vc_proj/mrinal/my_data/Mills_and_1000G_gold_standard.indels.b37.vcf",
+
+        "intervals": "/gatk/output_folder/vc_proj/mrinal/ref_files/Exome_Calling.intervals",
+
+
+	"read_group":
+[
+
+"4C_S2",
+"3OB_S1"
+
+],
+
+	"libraries":
+[
+
+"L001",
+"L002"
+
+]
+
+}
+
