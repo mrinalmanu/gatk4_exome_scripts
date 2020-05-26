@@ -1,0 +1,13 @@
+OMIM Search - 'rs144422014 '
+Downloaded:	May 23, 2020
+Copyright (c) 1966-2020 Johns Hopkins University OMIM, data are provided for research purposes only.
+
+MIM Number	Title	Included Titles	Cytogenetic Location	Genomic Coordinates (From NCBI/GRCh38)	Entrez Gene ID
+*276000	PROTEASE, SERINE, 1; PRSS1	TRYPSIN 1, INCLUDED	7q34	7:142740234-142753075	5644
+
+
+
+
+
+
+
